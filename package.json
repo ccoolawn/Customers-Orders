@@ -1,0 +1,25 @@
+{
+  "name": "customers_orders",
+  "version": "1.0.0",
+  "description": "Customers and order \"dashboard\" using angular, node, express, & mongoDB",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccoolawn/Customers-Orders.git"
+  },
+  "author": "Cornell Coulon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ccoolawn/Customers-Orders/issues"
+  },
+  "homepage": "https://github.com/ccoolawn/Customers-Orders#readme",
+  "dependencies": {
+    "body-parser": "^1.14.0",
+    "express": "^4.13.3",
+    "mongoose": "^4.1.8"
+  }
+}
